@@ -3,31 +3,33 @@ html
 
 #frame {
     position: absolute;
-    top: 45.5%;
+    top: 56%;
+    height: 500px;
     left: 6%;
     transform: translate(-50%, -50%);
     background-color: transparent;
     border: solid 3px rgb(255, 255, 255);
     border-radius: 5px;
     margin: 10px;
-    width: 0px;
     padding: 120px;
     box-sizing: border-box; /* pour inclure les bordures dans les dimensions de la boîte */
 }
 
-#frame2 {
+#frame3 {
     position: absolute;
-    top: 50%;
-    left: 6%;
+    top: 41%;
+    left: 47%;
     transform: translate(-50%, -50%);
     background-color: transparent;
     border: solid 3px rgb(255, 255, 255);
     border-radius: 5px;
-    margin: 10px;
-    width: 0px;
+    height: 500px;
+    margin: 150px;
+    width: 1600px;
     padding: 120px;
     box-sizing: border-box; /* pour inclure les bordures dans les dimensions de la boîte */
 }
+
 
 #frame3 {
     position: absolute;
