@@ -31,23 +31,6 @@ html
 }
 
 
-#frame3 {
-    position: absolute;
-    top: 41%;
-    left: 47%;
-    transform: translate(-50%, -50%);
-    background-color: transparent;
-    border: solid 3px rgb(255, 255, 255);
-    border-radius: 5px;
-    height: 500px;
-    margin: 150px;
-    width: 1600px;
-    padding: 120px;
-    box-sizing: border-box; /* pour inclure les bordures dans les dimensions de la boîte */
-}
-
-
-
 body {
     background-color: #272222;
 }
@@ -111,32 +94,34 @@ nav ul li a {
     height:40px;
     background: linear-gradient(to bottom, #333333, #fff);
     border: 1px solid #000; /* Ajout de la bordure */
-    color: rgb(0, 0, 0)
-
-}
-
-
-nav {
+    color: rgb(0, 0, 0);
+    }
+    
+    nav {
     position: fixed;
     bottom: 342px;
     left: 65px;
-}
-ul {
+    }
+    
+    ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-li {
+    }
+    
+    li {
     display: block;
-}
-.submenu {
+    }
+    
+    .submenu {
     display: none;
     position: absolute;
-    right: 50%px;
-}
-li:hover .submenu {
+    left: 70px;
+    }
+    
+    li:hover .submenu {
     display: block;
-}
+    }
 /*bordure banniere   */
 .rounded-top-border {
     border-top-left-radius: 10px;
@@ -171,5 +156,7 @@ li:hover .submenu {
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
 }
+
+
 
 
